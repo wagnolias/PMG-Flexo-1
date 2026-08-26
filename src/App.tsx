@@ -54,34 +54,34 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-pmg-navy/95 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-6'}`}>
-      <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className="flex items-center transition-transform hover:scale-105">
-          <img 
-            src="https://i.ibb.co/NgZcFb4B/Logo-PMG-FLEXO-BRANCO-E-VERMELHO.png" 
-            alt="PMG Flexo Logo" 
+      <div className="max-w-7xl mx-auto px-6 flex justify-between items-center gap-6">
+        <a href="#home" className="flex items-center shrink-0 transition-transform hover:scale-105">
+          <img
+            src="https://i.ibb.co/NgZcFb4B/Logo-PMG-FLEXO-BRANCO-E-VERMELHO.png"
+            alt="PMG Flexo Logo"
             className="h-8 md:h-10 w-auto object-contain"
             referrerPolicy="no-referrer"
           />
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-5 xl:gap-6">
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
-              href={link.href} 
-              className="text-sm font-medium text-white/80 hover:text-pmg-magenta transition-colors uppercase tracking-widest"
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-sm font-medium text-white/80 hover:text-pmg-magenta transition-colors uppercase tracking-widest whitespace-nowrap"
             >
               {link.name}
             </a>
           ))}
-          <button className="bg-pmg-magenta hover:bg-pmg-magenta/90 text-white px-6 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105 active:scale-95">
+          <button className="shrink-0 bg-pmg-magenta hover:bg-pmg-magenta/90 text-white px-6 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105 active:scale-95 whitespace-nowrap">
             FALAR COM ESPECIALISTA
           </button>
         </div>
 
         {/* Mobile Toggle */}
-        <button className="md:hidden text-white" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button className="lg:hidden text-white shrink-0" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 w-full bg-pmg-navy border-t border-white/10 p-6 md:hidden"
+            className="absolute top-full left-0 w-full bg-pmg-navy border-t border-white/10 p-6 lg:hidden"
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
