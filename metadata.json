@@ -1,0 +1,8 @@
+{
+  "name": "Remix PMG Flexo - Tecnologia em Clichês Flexográficos",
+  "description": "Site institucional da PMG Flexo, especializada em produção de clichês flexográficos de alta precisão com Tecnologia Everest e Sistema Kaiaki.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
