@@ -17,8 +17,9 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  Instagram, 
+  Instagram,
   Linkedin,
+  Facebook,
   Target,
   Menu, 
   X,
@@ -45,7 +46,7 @@ const Navbar = () => {
     { name: 'Home', href: '#home' },
     { name: 'Quem Somos', href: '#quem-somos' },
     { name: 'Diferenciais', href: '#diferenciais' },
-    { name: 'Everest', href: '#everest' },
+    { name: 'HRX', href: '#everest' },
     { name: 'Kaiaki', href: '#kaiaki' },
     { name: 'Aplicações', href: '#aplicacoes' },
     { name: 'Academy', href: '#academy' },
@@ -141,7 +142,7 @@ const Hero = () => {
             A precisão que sua <span className="text-pmg-magenta">impressão</span> exige.
           </h1>
           <p className="text-xl text-white/70 mb-8 max-w-lg leading-relaxed">
-            Líder nacional em clicheria de alta performance. Com a <span className="text-white font-bold">tecnologia everest</span>, garantimos repetibilidade, redução de setups e qualidade superior em cada metro impresso.
+            Líder nacional em clicheria de alta performance. Com a <span className="text-white font-bold">plataforma HRX</span> e as tecnologias Everest® e K2®, garantimos repetibilidade, redução de setups e qualidade superior em cada metro impresso.
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="bg-pmg-magenta hover:bg-pmg-magenta/90 text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 transition-all group">
@@ -210,7 +211,7 @@ const QuemSomosOQueFazemos = () => {
   ];
 
   const servicos = [
-    { icon: <Layers className="text-pmg-magenta" size={24} />, title: "Gravação de Matrizes Flexográficas (Clichês)", desc: "Matrizes fotopolímeras digitais em alta resolução com a Tecnologia Everest, para banda larga e banda estreita." },
+    { icon: <Layers className="text-pmg-magenta" size={24} />, title: "Gravação de Matrizes Flexográficas (Clichês)", desc: "Matrizes fotopolímeras digitais em alta resolução na plataforma HRX, com as tecnologias Everest® e K2®, para banda larga e banda estreita." },
     { icon: <Eye className="text-blue-400" size={24} />, title: "Provas Contratuais & Mockups 3D", desc: "Simulação de cor precisa antes de gravar o fotopolímero, com provas calibradas e mockups em substratos reais." },
     { icon: <Settings className="text-purple-400" size={24} />, title: "Engenharia de Pré-Impressão & Colorimetria", desc: "Preflight avançado, trapping e separação técnica de cores, com padronização Color Standard PMG." },
     { icon: <GraduationCap className="text-emerald-400" size={24} />, title: "Consultoria Técnica & PMG Academy", desc: "Acompanhamento em máquina, auditoria de anilox e treinamentos técnicos para sua equipe." }
@@ -376,14 +377,14 @@ const EverestSection = () => {
             viewport={{ once: true }}
           >
             <div className="inline-block px-4 py-1 rounded-full bg-pmg-magenta text-white text-xs font-bold uppercase tracking-widest mb-6">
-              TECNOLOGIA EXCLUSIVA
+              PLATAFORMA ATUAL
             </div>
-            <h2 className="text-5xl md:text-6xl font-extrabold mb-8">Tecnologia <span className="text-pmg-magenta">everest</span></h2>
+            <h2 className="text-5xl md:text-6xl font-extrabold mb-8">Plataforma <span className="text-pmg-magenta">HRX</span></h2>
             <p className="text-xl text-white/80 mb-8 leading-relaxed">
-              A <span className="text-white font-bold">tecnologia everest</span> representa o mais alto padrão técnico da PMG Flexo no desenvolvimento de clichês flexográficos.
+              Com a descontinuação da chapa Kodak NX pelo mercado, a PMG Flexo avaliou as alternativas disponíveis e definiu o <span className="text-white font-bold">HRX</span> como sua nova plataforma de gravação.
             </p>
             <p className="text-lg text-white/60 mb-10 leading-relaxed">
-              Combinando controle rigoroso de processos, engenharia de pré-impressão e tecnologia avançada de gravação, a Everest garante:
+              Compatível com CDI Esko® e com as tecnologias Everest® e K2®, o HRX garante:
             </p>
             <ul className="space-y-4 mb-10">
               {[
@@ -399,7 +400,7 @@ const EverestSection = () => {
               ))}
             </ul>
             <p className="text-pmg-silver/50 italic border-l-2 border-pmg-magenta pl-6 py-2">
-              A Everest foi desenvolvida para atender gráficas que buscam máxima performance e consistência industrial.
+              O HRX foi adotado para que a PMG Flexo continue entregando máxima performance e consistência industrial, mesmo com a descontinuação de chapas legadas no mercado.
             </p>
           </motion.div>
           
@@ -418,8 +419,8 @@ const EverestSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-pmg-navy via-transparent to-transparent opacity-80"></div>
               <div className="absolute bottom-10 left-10 right-10">
-                <div className="text-4xl font-black text-white mb-2">EVEREST</div>
-                <div className="text-pmg-magenta font-bold tracking-[0.2em] uppercase text-sm">O Topo da Flexografia</div>
+                <div className="text-4xl font-black text-white mb-2">HRX</div>
+                <div className="text-pmg-magenta font-bold tracking-[0.2em] uppercase text-sm">A Nova Plataforma de Gravação</div>
               </div>
             </div>
           </motion.div>
@@ -645,7 +646,7 @@ const AcademySection = () => {
                 <div className="w-12 h-12 rounded-full bg-pmg-magenta/10 text-pmg-magenta flex items-center justify-center shrink-0 font-bold">01</div>
                 <div>
                   <h4 className="font-bold text-pmg-navy text-xl mb-2">Alinhamento Total</h4>
-                  <p className="text-slate-600">Garantir que sua equipe utilize 100% do potencial da Tecnologia Everest, reduzindo setups e eliminando o improviso em máquina.</p>
+                  <p className="text-slate-600">Garantir que sua equipe utilize 100% do potencial da plataforma HRX, reduzindo setups e eliminando o improviso em máquina.</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -675,7 +676,7 @@ const AcademySection = () => {
             <div className="grid grid-cols-1 gap-4">
               {[
                 { title: "Pré-Impressão Avançada", desc: "Como preparar arquivos para garantir que 70% do sucesso nasça antes da máquina." },
-                { title: "Tecnologia Everest & Reticulagem", desc: "Domínio das retículas de topo plano para degradês perfeitos e estabilidade em alta velocidade." },
+                { title: "Plataforma HRX & Reticulagem", desc: "Domínio das retículas de topo plano Everest® e K2® para degradês perfeitos e estabilidade em alta velocidade." },
                 { title: "Gestão Digital com o Sistema Kaiaki", desc: "Autonomia total para sua equipe gerenciar pedidos, RIP remoto e quantitativo de tintas." },
                 { title: "Manutenção de Ativos", desc: "Técnicas de limpeza e conservação de clichês para maximizar a durabilidade e o lucro." }
               ].map((pilar, i) => (
@@ -849,13 +850,21 @@ const Footer = () => {
               >
                 <Instagram size={20} />
               </a>
-              <a 
-                href="https://www.linkedin.com/company/pmgflexo/posts/?feedView=all" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.linkedin.com/company/pmgflexo/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-pmg-magenta transition-colors"
               >
                 <Linkedin size={20} />
+              </a>
+              <a
+                href="https://www.facebook.com/pmgflexo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-pmg-magenta transition-colors"
+              >
+                <Facebook size={20} />
               </a>
             </div>
           </div>
@@ -865,7 +874,7 @@ const Footer = () => {
             <ul className="space-y-4 text-white/60">
               <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
               <li><a href="#diferenciais" className="hover:text-white transition-colors">Diferenciais</a></li>
-              <li><a href="#everest" className="hover:text-white transition-colors">Tecnologia Everest</a></li>
+              <li><a href="#everest" className="hover:text-white transition-colors">Plataforma HRX</a></li>
               <li><a href="#kaiaki" className="hover:text-white transition-colors">Sistema Kaiaki</a></li>
               <li><a href="#academy" className="hover:text-white transition-colors">PMG Academy</a></li>
             </ul>
