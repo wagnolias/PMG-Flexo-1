@@ -411,7 +411,7 @@ const EverestSection = () => {
           >
             <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group">
               <img 
-                src="https://i.ibb.co/sv3Cv2jG/lucid-origin-A-hyper-realistic-cinematic-interpretation-of-Mount-Everest-where-the-mountain-i-1.jpg" 
+                src="https://i.ibb.co/mVkGppLh/lucid-origin-A-hyper-realistic-cinematic-interpretation-of-Mount-Everest-where-the-mountain-i-0.jpg"
                 alt="Mount Everest" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -574,8 +574,8 @@ const AcademySection = () => {
           {/* Background Image Overlay */}
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://i.ibb.co/ZrPNcZN/Phoenix-09-Hyperrealistic-cinematic-wide-shot-of-a-highend-fut-3.jpg" 
-              alt="Futuristic Training Background" 
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200"
+              alt="Futuristic Training Background"
               className="w-full h-full object-cover opacity-30"
               referrerPolicy="no-referrer"
             />
