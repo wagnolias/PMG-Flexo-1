@@ -320,8 +320,8 @@ const Diferenciais = () => {
     },
     {
       icon: ShieldCheck,
-      title: "Sustentabilidade & PPWR",
-      description: "Processos otimizados que reduzem o desperdício de plástico e tinta, garantindo conformidade com as novas exigências ambientais de 2026."
+      title: "Sustentabilidade Ambiental",
+      description: "Menos desperdício de plástico e tinta em cada produção, seguindo as novas regras ambientais para embalagens."
     },
     {
       icon: Zap,
